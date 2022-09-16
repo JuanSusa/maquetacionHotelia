@@ -88,6 +88,7 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .text-description{
@@ -96,19 +97,20 @@ a:hover{
     flex-basis: 70%;
     padding: 5rem;
     
+    
 }
 
 .logo-description{
     flex-basis: 30%;
     padding: 5rem;
+    max-width: 100%;
 }
 
 #reservas{
     background-color: var(--Magenta);
     font-family: 'Marcellus', serif;
     font-size: 3rem;
-    display: flex;
-   
+       
 
     color: var(--blanco);
 
@@ -170,4 +172,106 @@ a:hover{
 
 .box2{
     background-color: rgb(0,0,0, 0.2);
+}
+
+#ubicacion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#ubicacion iframe{
+    width: 95%;
+    height: 300px;
+    margin: 20px 15px;
+}
+
+.direccion_ubicacion{
+    font-weight: 300;
+    text-transform:uppercase;
+    font-size: 2rem;
+    border-bottom: 3px solid var(--azuloscuro);
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+
+#ubicacion h2{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#opiniones{
+    background-image: url(../img/vector-comentarios.svg);
+    height: 150px;
+    
+
+}
+
+.titulo_opiniones{
+    
+    font-size: 2rem;
+    color: var(--blanco);
+    text-align:center;
+}
+
+.box-opciones{
+    display: flex; 
+    justify-content: space-around;
+    
+    
+    
+}
+
+.opciones-btn img{
+    
+    border-radius: 100%;
+    
+
+
+}
+
+.opciones-btn{
+    background-image: url(../img/Vector-opinion.png)
+    background-position: 70% 30%;
+}
+
+.text-opciones{
+    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    text-align: justify;
+    color: var(--blanco);
+    font-size: 0.5rem;
+}
+
+.calificacion{
+    color: var(--blanco);
+}
+
+
+
+#footer{
+    background-color: var(--negro2);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--blanco);
+    padding: 20px;
+}
+
+.text-footer{
+    padding-top: 10px;
+    font-family: 'Marcellus', serif;
+
+}
+
+.contac-footer{
+    line-height:3rem;
+}
+
+.politicas-footer{
+    line-height: 3rem;
+
 }
