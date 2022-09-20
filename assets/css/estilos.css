@@ -206,8 +206,10 @@ a:hover{
 
 #opiniones{
     background-image: url(../img/vector-comentarios.svg);
-    height: 150px;
-    
+    background-repeat: repeat-x;
+    background-size: 80% 70%;
+    height: 50%;
+       
 
 }
 
@@ -216,35 +218,62 @@ a:hover{
     font-size: 2rem;
     color: var(--blanco);
     text-align:center;
+    padding-top: 5rem;
 }
 
 .box-opciones{
     display: flex; 
+    flex-wrap: wrap;
     justify-content: space-around;
+    padding: 1rem 0.7rem; 
     
     
     
 }
 
+.opciones-btn p{
+    padding: 1rem;
+    color: var(--blanco);
+}
+
 .nombre-opciones{
     display: flex;
+    justify-content: baseline;
+    flex-basis: 20% 80%;
+    color: var(--blanco);
+    align-items: center;
+    text-align: center;
+    padding: 1rem 3rem 1rem 1.5rem;
+    background-image: url(../img/Vector-opinion.png);
+    background-repeat: no-repeat;    
+    background-size:100% 90% ;
+    
+}
+
+.nombre{
+    padding: 1rem;
+    align-items: flex-end;
 }
 
 .opciones-btn img{
     display: flex;
     border-radius: 100%;
-
     
-
-
+      
 }
 
 .opciones-btn{
     background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    margin: 0.5rem;
+    border-radius: 0.2rem;
+    flex-basis: 31%;
+
+        
+    
 }
 
 .text-opciones{
-    background: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+    
     text-align: justify;
     color: var(--blanco);
     font-size: 0.5rem;
@@ -252,6 +281,10 @@ a:hover{
 
 .calificacion{
     color: var(--blanco);
+}
+
+.calificacion1{
+    color: var(--Magenta);
 }
 
 
@@ -262,7 +295,7 @@ a:hover{
     display: flex;
     justify-content: space-around;
     color: var(--blanco);
-    padding: 20px;
+    padding: 1.5rem;
 }
 
 .text-footer{
